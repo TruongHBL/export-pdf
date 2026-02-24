@@ -1,11 +1,3 @@
-# frozen_string_literal: true
-# =============================================================
-# 予約カルテ Page 1 - Prawn PDF Generator
-# Matches template with correct solid/dashed border pattern
-#
-# gem install prawn
-# ruby yoyaku_karte.rb
-# =============================================================
 require 'prawn'
 require 'benchmark'
 

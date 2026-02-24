@@ -1,12 +1,3 @@
-#!/usr/bin/env ruby
-# =============================================================
-# 予約カルテ - WickedPDF Version (CLEAN & READABLE)
-# Sử dụng HTML/CSS - DỄ ĐỌC & DỄ SỬA hơn Prawn nhiều!
-#
-# Cài đặt: gem install wicked_pdf wkhtmltopdf-binary
-# Chạy: ruby wicked_generator_v2.rb
-# =============================================================
-
 require 'wicked_pdf'
 require 'benchmark'
 

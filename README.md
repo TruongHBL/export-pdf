@@ -4,19 +4,6 @@ Dự án demo tạo PDF "予約カルテ" (Reservation Card) bằng 2 cách:
 - **Prawn**: Vẽ PDF bằng Ruby code (programmatic)
 - **WickedPDF**: Render PDF từ HTML/CSS (declarative)
 
-## 📋 Tổng quan
-
-| Tiêu chí | Prawn | WickedPDF |
-|----------|-------|-----------|
-| **Cách tiếp cận** | Programmatic (code vẽ trực tiếp) | HTML/CSS → PDF |
-| **Độ phức tạp** | Cao (phải tính toán vị trí, kích thước) | Thấp (như làm web) |
-| **Hiệu năng** | Nhanh hơn (~0.1s) | Chậm hơn (~0.5-1s) |
-| **Font Unicode** | Cần cấu hình font path | Tự động (qua CSS) |
-| **Layout phức tạp** | Khó (nhiều code) | Dễ (flex, grid, table) |
-| **Responsive** | Không | Có (media query) |
-| **Debug** | Khó (phải chạy lại) | Dễ (xem HTML trước) |
-| **Kích thước file** | Lớn (embed font) | Nhỏ hơn |
-
 ## 🚀 Cài đặt
 
 ### 1. Cài đặt Ruby gems
@@ -371,22 +358,3 @@ WickedPdf.config = {
   enable_local_file_access: true
 }
 ```
-
-## 🤝 Contributing
-
-Nếu bạn có cải tiến hoặc phát hiện bug, hãy:
-1. Fork repo này
-2. Tạo branch mới: `git checkout -b feature/improvement`
-3. Commit changes: `git commit -am 'Add some feature'`
-4. Push to branch: `git push origin feature/improvement`
-5. Tạo Pull Request
-
-## 📄 License
-
-MIT License - Free to use for personal and commercial projects.
-
----
-
-**Tác giả**: TruongHBL  
-**Ngày cập nhật**: 24/02/2026  
-**Version**: 2.0
